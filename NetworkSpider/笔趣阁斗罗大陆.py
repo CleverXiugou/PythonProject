@@ -42,6 +42,8 @@ while True:
         else:
             # lines换行
             lines.append('\n')
+    # 没章节最后六句是广告，直接删去即可
+    lines=lines[:-6]
     # 将lines中的元素合并为一个字符串
     formatted_content = ''.join(lines)
     # 将连续的空行合并成一个
