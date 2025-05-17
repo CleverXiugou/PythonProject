@@ -1,1 +1,1 @@
-print('MotherFucker1111')
+print('MotherFucker1')
