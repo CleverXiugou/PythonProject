@@ -10,3 +10,11 @@ while i<=9:
         j+=1
     i+=1
     print()
+
+# 使用for循环完成九九乘法表
+# x表明现在在输出第几行，范围是从第一行到第九行
+for x in range(1,10):
+    # y表明在输入该行的第几个式子，范围是从第一行到第x行
+    for y in range(1,x+1):
+        print(f"{y} * {x} = {x*y}",end='\t')
+    print()
